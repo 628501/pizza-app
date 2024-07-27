@@ -1,0 +1,256 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.details{
+    width: 28rem;
+}
+
+.details form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details .register{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register p a{
+    color: green;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register p a:hover{
+    text-decoration: underline;
+}
+
+.details .icon1 {
+    position: absolute;
+    left: 1170px;
+    top: 320px;
+    color: #aaa;
+}
+
+.details .icon2 {
+    position: absolute;
+    left: 1170px;
+    top: 405px;
+    color: #aaa;
+}
+
+.details .icon3 {
+    position: absolute;
+    left: 1170px;
+    top: 490px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.details .icon4 {
+    position: absolute;
+    left: 1170px;
+    top: 575px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.details .icon5 {
+    position: absolute;
+    left: 1170px;
+    top: 660px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .details  .icon1{
+        position: absolute;
+        left: 300px;
+        top: 320px;
+        color: #aaa;
+    }
+    .details .icon2 {
+        position: absolute;
+        left: 300px;
+        top: 405px;
+        color: #aaa;
+    }
+
+    .details .icon3 {
+        position: absolute;
+        left: 300px;
+        top: 490px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon4 {
+        position: absolute;
+        left: 300px;
+        top: 575px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon5 {
+        position: absolute;
+        left: 300px;
+        top: 660px;
+        cursor: pointer;
+        color: #aaa;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .details  .icon1{
+        position: absolute;
+        left: 325px;
+        top: 320px;
+        color: #aaa;
+    }
+    .details .icon2 {
+        position: absolute;
+        left: 325px;
+        top: 405px;
+        color: #aaa;
+    }
+
+    .details .icon3 {
+        position: absolute;
+        left: 325px;
+        top: 490px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon4 {
+        position: absolute;
+        left: 325px;
+        top: 575px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon5 {
+        position: absolute;
+        left: 325px;
+        top: 660px;
+        cursor: pointer;
+        color: #aaa;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .details  .icon1{
+        position: absolute;
+        left: 380px;
+        top: 320px;
+        color: #aaa;
+    }
+    .details .icon2 {
+        position: absolute;
+        left: 380px;
+        top: 405px;
+        color: #aaa;
+    }
+
+    .details .icon3 {
+        position: absolute;
+        left: 380px;
+        top: 490px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon4 {
+        position: absolute;
+        left: 380px;
+        top: 575px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon5 {
+        position: absolute;
+        left: 380px;
+        top: 660px;
+        cursor: pointer;
+        color: #aaa;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+    .details  .icon1{
+        position: absolute;
+        left: 600px;
+        top: 320px;
+        color: #aaa;
+    }
+    .details .icon2 {
+        position: absolute;
+        left: 600px;
+        top: 405px;
+        color: #aaa;
+    }
+
+    .details .icon3 {
+        position: absolute;
+        left: 600px;
+        top: 490px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon4 {
+        position: absolute;
+        left: 600px;
+        top: 575px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon5 {
+        position: absolute;
+        left: 600px;
+        top: 660px;
+        cursor: pointer;
+        color: #aaa;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px)  {
+    .details  .icon1{
+        position: absolute;
+        left: 730px;
+        top: 320px;
+        color: #aaa;
+    }
+    .details .icon2 {
+        position: absolute;
+        left: 730px;
+        top: 405px;
+        color: #aaa;
+    }
+
+    .details .icon3 {
+        position: absolute;
+        left: 730px;
+        top: 490px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon4 {
+        position: absolute;
+        left: 730px;
+        top: 575px;
+        cursor: pointer;
+        color: #aaa;
+    }
+    .details .icon5 {
+        position: absolute;
+        left: 730px;
+        top: 660px;
+        cursor: pointer;
+        color: #aaa;
+    }
+}

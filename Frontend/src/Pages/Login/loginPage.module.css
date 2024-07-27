@@ -1,0 +1,143 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.details {
+    width: 28rem;
+}
+
+.details form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+}
+
+.details .forgot {
+    color: green;
+}
+
+.details .register {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register p a {
+    color: green;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+
+.container .icon1 {
+    position: absolute;
+    left: 1170px;
+    top: 125px;
+    color: #aaa;
+}
+
+.container .icon2 {
+    position: absolute;
+    left: 1170px;
+    top: 210px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .container  .icon1{
+        position: absolute;
+        left: 325px;
+        top: 125px;
+        color: #aaa;
+    }
+
+    .container  .icon2{
+        position: absolute;
+        left: 325px;
+        top: 210px;
+        color: #aaa;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .container  .icon1{
+        position: absolute;
+        left: 330px;
+        top: 125px;
+        color: #aaa;
+    }
+
+    .container  .icon2{
+        position: absolute;
+        left: 330px;
+        top: 210px;
+        color: #aaa;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .container  .icon1{
+        position: absolute;
+        left: 390px;
+        top: 125px;
+        color: #aaa;
+    }
+
+    .container  .icon2{
+        position: absolute;
+        left: 390px;
+        top: 210px;
+        color: #aaa;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+    .container  .icon1{
+        position: absolute;
+        left: 600px;
+        top: 125px;
+        color: #aaa;
+    }
+
+    .container  .icon2{
+        position: absolute;
+        left: 600px;
+        top: 210px;
+        color: #aaa;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px)  {
+    .container  .icon1{
+        position: absolute;
+        left: 730px;
+        top: 125px;
+        color: #aaa;
+    }
+
+    .container  .icon2{
+        position: absolute;
+        left: 730px;
+        top: 210px;
+        color: #aaa;
+    }
+}
+
+
+

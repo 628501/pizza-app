@@ -1,0 +1,39 @@
+INSERT INTO products VALUES (1,'Chicken Dominator','10-20','/pizzas/Chicken Dominator.jpg',false, '["Italy"]',4.5,200,'["FastFood", "Non-Veg-Pizza", "Lunch"]');
+INSERT INTO products VALUES (2,'Chicken Fiesta','20-30','/pizzas/Chicken Fiesta.jpg',false, '["Italy"," Japan"]',4.5,250,'["FastFoo", "Non-Veg-Pizza", "Lunch"]');
+INSERT INTO products VALUES (3,'Chicken Sausage','20-30','/pizzas/Chicken Sausage.jpg',true, '["Scottland"," Belgium"]',4.5,300,'["FastFood", "Non-Veg-Pizza", "Lunch"]');
+INSERT INTO products VALUES (4,'Fiery Jalapeno & Paprika','11-22','/pizzas/Fiery Jalapeno & Paprika.jpg',true, '["Georgia"]',2.5,500,'["FastFood", "Veg-Pizza", "Lunch"]');
+INSERT INTO products VALUES (5,'Blazing Chicken & Paprika','10-15','/pizzas/Blazing Chicken & Paprika.jpg',false, '["France"," Nepal"]',4.5,250,'["FastFood", "Non-Veg-Pizza", "Lunch"]');
+INSERT INTO products VALUES (6,'Non Veg Loaded','10-20','/pizzas/Non Veg Loaded.jpg', true, '["Finland"," Japan"]',4.5,260,'["FastFood", "Non-Veg-Pizza", "Lunch"]');
+INSERT INTO products VALUES (7,'Chicken Pepperoni','11-26','/pizzas/Chicken Pepperoni.jpg',true, '["Mexico"]',4.5,300,'["FastFood", "Non-Veg-Pizza", "Lunch"]');
+INSERT INTO products VALUES (8,'Primavera Gourmet-Pizza','10-20','/pizzas/Primavera Gourmet-Pizza.jpg',false, '["China"," Rome"]',3.5,300,'["FastFood", "Veg-Pizza", "Lunch"]');
+INSERT INTO products VALUES (9,'B Natural Mixed Fruit (300 ml)','10-23','/pizzas/B Natural Mixed Fruit from Himalayas (300 ml).jpg',false, '["Japan"]',3.5,150,'["Beverages"]');
+INSERT INTO products VALUES (10,'Butterscotch Mousse Cake','10-23','/pizzas/Butterscotch Mousse Cake.png',true, '["Australia"]',4.5,100,'["Desserts"]');
+INSERT INTO products VALUES (11,'Cake','10-23','/pizzas/Cake.jpg',true, '["Europe","Nepal"]',3.5,90,'["Desserts"]');
+INSERT INTO products VALUES (12,'Cheese Overload','10-23','/pizzas/Cheese Overload.png',true, '["Japan"]',2.5,250, '["Veg-Pizza","Lunch","FastFood"]');
+INSERT INTO products VALUES (13,'Red Velvet Lava Cake','10-23','/pizzas/Red Velvet Lava Cake.jpg',true, '["America"]',4.5,60, '["Desserts"]');
+INSERT INTO products VALUES (14,'Pepsi','10-23','/pizzas/Pepsi.jpg',true, '["Africa"]',4.5,80,'["Beverages"]');
+INSERT INTO products VALUES (15,'Pepsi 475ml','10-23','/pizzas/Pepsi 475ml.jpg',true,'["Russia","USA"]',4.5,120,'["Beverages"]');
+INSERT INTO products VALUES (16,'Smoked Chicken Gourmet-Pizza','10-23','/pizzas/Smoked Chicken Gourmet-Pizza.png',true, '["Australia","Africa"]',4.5,500,'["Non-Veg-Pizza","FastFood","Lunch"]');
+INSERT INTO products VALUES (17,'Non Veg Supreme','13-23','/pizzas/Non Veg Supreme.jpg',true, '["China","Japan"]',4.5,600,'["Non-Veg-Pizza","Lunch","FastFood"]');
+INSERT INTO products VALUES (18,'Indi Chicken Tikka','10-23','/pizzas/Indi Chicken Tikka.jpg',false, '["Australia","NewYork"]',4.5,250,'["Non-Veg-Pizza","Lunch","FastFood"]');
+INSERT INTO products VALUES (19,'Paneer Videshi Hot Sauce','10-23','/pizzas/Paneer & Capsicum with Videshi Hot Sauce.jpg',true, '["Nepal"]',4.5,250,'["Veg-Pizza","Lunch","FastFood"]');
+INSERT INTO products VALUES (20,'Lipton Ice Tea ( 350 ml)','10-23','/pizzas/Lipton Ice Tea ( 350 ml).jpg',true,'["Australia","USA"]',4.5,150,'["Beverages"]');
+
+'{
+        "Veg": [
+            {"id": 1, "topping": "BellPeppers", "price": 15},
+            {"id": 2, "topping": "Onions", "price": 20},
+            {"id": 3, "topping": "Mushrooms", "price": 25}
+        ],
+        "NonVeg": [
+            {"id": 4, "topping": "Pepperoni", "price": 40},
+            {"id": 5, "topping": "Sausage", "price": 50},
+            {"id": 6, "topping": "Chicken", "price": 80}
+        ],
+        "Cheese": [
+            {"id": 7, "topping": "Mozzarella", "price": 30},
+            {"id": 8, "topping": "Cheddar", "price": 34},
+            {"id": 9, "topping": "Feta", "price": 45}
+        ]
+    }'
+
